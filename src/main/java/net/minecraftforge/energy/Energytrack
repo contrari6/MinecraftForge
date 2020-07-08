@@ -1,0 +1,13 @@
+//this will allow you to track the energy being stored
+//there are some other things you can track
+import math
+public class energy_track{
+  private static final string last_player_to_add;
+  public static get_last_player_add(block, far){
+    for (far){ 
+      if (getblock(math.random(-far, far), math.random(-far, far), math.random(-far, far)) == block){
+        //this is unfinshed, so right now there is nothing in here, but if you fork it you can put it in
+      }
+    }
+  }
+}
