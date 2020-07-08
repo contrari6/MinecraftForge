@@ -57,7 +57,7 @@ public class ForgeVersion
         LOGGER.debug(CORE, "Found Forge group {}", forgeGroup);
     }
 
-    public static String getVersion()
+    public static String GetForgeVersion()
     {
         return forgeVersion;
     }
@@ -68,7 +68,7 @@ public class ForgeVersion
     }
 
     @Nullable
-    public static String getTarget()
+    public static String getTargetVersion()
     {
         VersionChecker.CheckResult res = VersionChecker.getResult(ModList.get().getModFileById(MOD_ID).getMods().get(0));
         return res.target == null ? "" : res.target.toString();
